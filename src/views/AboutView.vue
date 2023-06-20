@@ -1,25 +1,22 @@
 <template>
   <div class="about">
-    <h1>About</h1>
+    <h1>Haqqımızda</h1>
     <div>
-      <p>
-        Welcome to our About page, where you can learn more about who we are and what we do!
-      </p> 
-      <p>
-        Our company was founded with a mission to [insert mission statement or purpose here]. We are passionate about [insert area of focus or expertise here], and strive to [insert goals or values here].
-      </p> 
-      <p>
-        Over the years, we have [insert achievements or milestones here]. We have built a team of dedicated professionals who are committed to [insert core values or principles here]. We believe that by [insert approach or strategy here], we can make a positive impact in [insert relevant industry or community here].
-      </p> 
-      <p>
-        At our core, we value [insert core values or principles here], and work hard to incorporate these values into everything we do. We believe that [insert belief or philosophy here], and strive to make a difference in [insert relevant industry or community here].
-      </p> 
-      <p>
-        We are always looking for new opportunities to grow and expand our reach, and we welcome partnerships and collaborations with like-minded individuals and organizations. If you share our values and are interested in working with us, please don't hesitate to [insert call to action or contact information here].
-      </p> 
-      <p>
-        Thank you for taking the time to learn more about us. We are excited to continue our journey and make a positive impact in [insert relevant industry or community here].
-      </p> 
+      <p> Bizlər faydalarını saymaqdan bitirə bilməyəcəyiniz son dərəcə xeyirli  olan şam qozalarından əldə etdiyimiz  doşabla qarşınızdayıq.  Bəs doşab əldə etdiyimiz bu möcüzəvi bitkinin nə kimi faydaları var ?  Gəlin bu suala birlikdə cavab tapaq.
+      Hazırladığımız bu doşabı şam qozalarından əldə edirik. Şam qozalarının isə ağciyər xəstəlikləri, qrip, qızdırma kimi bir çox xəstəliklərin təbii dərmanı olduğu insanlara hələ qədim zamanlardan bəllidir.  Təbii dadlandırıcı kimi də istifadə edilə biləcəyiniz  bu doşab son dərəcə sağlıqlı , faydalı olduğu üçün 7-dən 70-ə hər kəsin istifadə edə biləcəyi bir qida məhsuludur deyə bilərik.
+      Bundan başqa isə  şam qozalarının  təbiət qoxusunu sevən insanlar üçün evlərində istifadə edə biləcəkləri ətir kimi , bəzək üçün istifadə edilə biləcək bəzək bitkisi kimi saymaqla bitirə bilməyəcəyimiz bir çox faydaları var .
+      Şam qozalarından doşab kimi istifadə etdikcə isə bu təbi ki, şam ağaclarının sürətlə əkilməsinə gətirib çıxaracaq. Əkilən  bircə ağacın isə  qlobal dəyişmələrin sürətlə artdığı bu dövrdə nə demək olduğunu məncə hər kəs bilir. 
+      Son olaraq məqsədimizə gəldikdə isə  məqsədimiz qlobal istiləşmələrin və bunun kimi bir çox problemlərin  artdığı bu dövrdə yaşadığımız bu dünyanı daha yaşanılır  hala gətirməkdir . Çünki yaşaya biləcəyimiz  ikinci bir dünyamız yoxdur !
+    </p>
     </div>
   </div>
 </template>
+
+<style scoped>
+p{
+  border: 2px solid #618349;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+</style>

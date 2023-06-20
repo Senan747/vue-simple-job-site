@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> 
-    <router-link :to="{ name: 'about' }">About</router-link> 
-    <router-link to="/jobs">Jobs</router-link>
+    <div class="navigation"> <router-link to="/">Ana səhifə</router-link> 
+    <router-link :to="{ name: 'about' }">Haqqımızda</router-link> </div>
+   
   </nav>
   <router-view/>
 
@@ -11,19 +11,27 @@
 
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
-  color: #2c3e50;
+body{
+  background-color: #BDDEA5;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 
 nav {
   display:flex;
+  position: fixed;
+  top: 0;
   justify-content: center;
   padding: 30px;
-  
+  background-color: #087829;
+  width: 100%;
+  margin: 0;
+}
+.navigation{
+  margin: 0;
+ 
 }
 
 nav a {
